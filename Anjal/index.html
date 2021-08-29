@@ -5,78 +5,284 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href='http://fonts.googleapis.com/css?family=Lato:400,700' rel='stylesheet' type='text/css'>
-    <link href="style.css" rel="stylesheet">
-    <title>My protofolio</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Lato|Poppins" rel="stylesheet">
+    <title>Portofolio</title>
 </head>
 
 <body>
-    <div class="first-sec">
-        <header>
-            <ul class="navbar">
-                <li id>About me</li>
-                <li>Protofolio</li>
-                <li>Testimonials</li>
-                <li>Contact me</li>
 
-            </ul>
+    <!-- First section -->
+    <section class="first-sec">
+        <header>
+            <nav>
+                <ul class="navbar">
+                    <li class="nav-list"><a class="contact-me" href="#contactme">Contact Me</a></li>
+                    <li class="nav-list"><a href="#Testimonials">Testimonials</a></li>
+                    <li class="nav-list"><a href="#portfolio">Portfolio</a></li>
+                    <li class="nav-list"><a href="#aboutme">About Me</a></li>
+                </ul>
+            </nav>
 
         </header>
-        <div class="main-box">
-            <div class="img-box">
-                <img id="main-img" src="img/topimage.png">
-            </div>
-            <div class="content">
-                <h1>Anjal Giri</h1>
-                <h3 style="padding-top: 10%;">Full Stack Developer</h3>
-                <p id="para">I have a passion for writing the instructions for the web products that so many will
-                    interact with
-                    and I aim that passion towards creating an outstanding product for my customers</p>
-
-                <button id="hire-me">Hire me</button>
-
-            </div>
-        </div>
-
-    </div>
-    <div class="second-sec">
-        <div class="img-box-2">
-            <img id="abt-img" src="img/anjalabout1.png">
-        </div>
-
-        <div class="about-me">
-            <p>About me</p>
-            <p id="para-2">I completed schooling in Shuvatara school, learned C++ for two years while in high school. I
-                am currently an IT student at Middlesex University Dubai in my final year. I am always interested in
-                competitions or project works that require teamwork and strategic planning and am enthusiastic about
-                modern technology/ inventions.
-            </p>
-
-            <p>Experience</p>
-            <p id="para-2">Pre-Sales Intern <br> <br>
-                @ Tally Solutions - DAFZA, Dubai <br>
-                IT Assistant <br>
-                @ TITANIC MANPOWER SUPPLIER PVT. LTD - Kathmandu, Nepal
-            </p>
-
-            <p>Skills</p>
-            <div class="container">
-                <img class="skills-img" src="img/Vector.png">
-                <img class="skills-img" src="img/tabler_brand-python.png">
-                <img class="skills-img" src="img/bi_bootstrap.png">
-                <img class="skills-img" src="img/la_php.png">
-                <img class="skills-img" src="img/grommet-icons_html5.png">
-                <img class="skills-img" src="img/fluent_document-css-24-regular.png">
-                <img class="skills-img" src="img/fluent_document-javascript-24-regular.png">
+        <div class="firstsec-mainbox">
+            <div class="firstsec-left-container">
+                <img src="img/topimage.png" alt="">
 
             </div>
 
+            <div class="firstsec-right-container">
+                <div class="intro-header">
+                    <p id="main-header">I’m Anjal Giri</p>
+                    <p id="sub-header">Full Stack Developer</p>
+                </div>
+                <div class="intro-para">
+                    <p>I have a passion for writing the instructions for the web products that so many will interact
+                        with and I aim that passion towards creating an outstanding product for my customers.</p>
+                </div>
+                <button class="hire-me"><a href="#hireme">Hire Me</a></button>
+                <button class="download-cv"><a href="#downloadcv">Download CV</a></button>
+            </div>
         </div>
 
-    </div>
-    <div class="third-sec">
-        <p id="third-sec-heading" style="text-align: center;">Portfolio</p>
-    </div>
+    </section>
+
+    <!-- Second section -->
+    <section class="second-sec">
+        <div class="secondsec-mainbox">
+            <div class="secondsec-left-container">
+                <img src="img/anjalabout1.png" alt="">
+            </div>
+
+            <div class="secondsec-right-container">
+                <div class="secondsec-header1">
+                    <p>About Me</p>
+                    <p id="aboutme-para1">I completed schooling in Shuvatara school, learned C++ for two years while in
+                        high school. I am currently an IT student at Middlesex University Dubai in my final year. I am
+                        always interested in competitions or project works that require teamwork and strategic planning
+                        and am enthusiastic about modern technology/ inventions.
+                    <p></p>
+
+
+                    </p>
+
+                    <p style="margin-top: 3px;">Education</p>
+                    <p id="aboutme-para2">
+                        Bachelor's in BSc Computing<br>
+                        MIDDLESEX UNIVERSITY - Knowledge park, Dubai <br>
+                        September 2018 - August 2021 <br> <br>
+
+                        High school or equivalent<br>
+                        MODERN INDIAN SCHOOL - Kathmandu, Nepal<br>
+                        March 2013 to April 2015<br> <br>
+
+                        School Leaving Certificate <br>
+                        SHUVATARA SCHOOL - Kathmandu, Nepal<br>
+                        March 2001 to January 2013<br> <br>
+
+
+
+                    </p>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Third section  -->
+    <section class="third-sec">
+        <div class="thirdsec-mainbox">
+            <div class="thirdsec-left-container">
+                <div class="thirdsec-left-header">
+                    <p>Experience</p>
+                </div>
+
+                <div class="thirdsec-left-para">
+                    <p id="thirdsecpara-header">Atechy Technologies</p>
+                    <p id="thirdsecpara-subheader">Full Stack Developer </p>
+                    <p id="thirdsecpara-subheader">April 2021- Present </p>
+                    <ul class="thirdsec-list">
+                        <li id="list">Participating in the design and creation of scalable software</li>
+                        <li id="list">Writing clean, functional code on the front- and back-end</li>
+                        <li id="list">Testing and fixing bugs or other coding issues</li>
+                    </ul>
+                    <br> <br> <br>
+
+                    <p id="thirdsecpara-header">Tally Solutions - DAFZA, Dubai</p>
+                    <p id="thirdsecpara-subheader">Pre-Sales Intern</p>
+                    <p id="thirdsecpara-subheader">January 2019- April 2019 </p>
+                    <ul class="thirdsec-list">
+                        <li id="list">Help distribute products and services.</li>
+                        <li id="list">Help organize sales events.</li>
+                        <li id="list">Manage and update the company database and customer relationship management
+                            systems (CRM).
+                        </li>
+                        <li>Assist in sales and advertising promotional activities (e.g. social media, direct mail, and
+                            web)</li>
+                    </ul>
+                    <br> <br> <br>
+
+                    <p id="thirdsecpara-header">TITANIC MANPOWER SUPPLIER PVT. LTD - Kathmandu, Nepal
+                    </p>
+                    <p id="thirdsecpara-subheader">IT Assistant
+                    </p>
+                    <p id="thirdsecpara-subheader">May 2017- August 2018 </p>
+                    <ul class="thirdsec-list">
+                        <li id="list">Configuring hardware and software.</li>
+                        <li id="list">Setting up peripherals such as routers and repairing equipment.</li>
+                        <li id="list">Providing daily support for computer network users.
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="divider"></div>
+
+            <div class="thirdsec-right-container">
+                <div class="thirdsec-right-header">
+                    <p>Skills</p>
+                </div>
+                <div class="skills-icon">
+                    <img class="mysql" src="img/mysql.png" alt="">
+                    <img class="vuejs" src="img/vue.png" alt="" style="margin-top: 75%;">
+                    <img src="img/Group 21.png" alt="" style="margin-top: 75%;">
+                    <img src="img/fontisto_java.png" alt="" style="margin-top: 75%;">
+                    <img src="img/bi_bootstrap.png" alt="" style="margin-top: 75%;">
+                    <img src="img/Group.png" alt="" style="margin-top: 75%;">
+                </div>
+
+                <div class="progressbar">
+                    <div class="progressbar1"></div>
+                </div>
+                <div class="progressbar-2">
+                    <div class="progressbar2"></div>
+                </div>
+                <div class="progressbar-3">
+                    <div class="progressbar3"></div>
+                </div>
+                <div class="progressbar-4">
+                    <div class="progressbar4"></div>
+                </div>
+                <div class="progressbar-5">
+                    <div class="progressbar5"></div>
+                </div>
+                <div class="progressbar-6">
+                    <div class="progressbar6"></div>
+                </div>
+
+
+
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Fourth section -->
+    <section class="fourth-sec">
+        <div class="fourthsec-header">
+            <p>Portfolio
+            <p>
+        </div>
+        <div class="fourthsec-mainbox">
+            <div class="fourthsec-left-container">
+                <img src="img/portfolio1.png" alt="">
+            </div>
+            <div class="fourthsec-right-container">
+                <img src="img/portfolio2.png" alt="">
+            </div>
+        </div>
+
+        <div class="carousel">
+            <div class="carousel-1"></div>
+            <div class="carousel-2"></div>
+            <div class="carousel-3"></div>
+        </div>
+    </section>
+
+    <!-- Fifth section -->
+    <section class="fifth-sec">
+        <div class="fifthsec-header">
+            <p>Testomonials
+            <p>
+        </div>
+        <div class="fifthsec-mainbox">
+            <div class="fifthsec-left-container">
+                <div class="testomonial1">
+                    <img src="img/Mask Group.png" alt="" style="padding-left: 30px; padding-top: 15%;">
+                    <div class="review-text">
+                        <p id="review-header">Danish Sayed</p>
+                        <p id="review-subheader">UX/UI developer</p>
+                        <div class="ratings">
+                            <img src="img/Group 19.png">
+                        </div>
+                        <div class="review">
+                            <p>My time with Anjal has been smooth sailing. He has been nothing short of professional and
+                                he has given me my website in record time.
+                            </p>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="fifthsec-right-container">
+                <div class="testomonial2">
+                    <img src="img/Mask Group1.png" alt="" style="padding-left: 30px; padding-top: 15%;">
+                    <div class="review-text">
+                        <p id="review-header">Cyril Jose</p>
+                        <p id="review-subheader">UX/UI developer</p>
+                        <div class="ratings">
+                            <img src="img/Group 19.png">
+                        </div>
+                        <div class="review">
+                            <p>Working with him has been a great experience. He is very committed to delivering results.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="testomonial-carousel">
+            <div class="testomonial-carousel-1"></div>
+            <div class="testomonial-carousel-2"></div>
+            <div class="testomonial-carousel-3"></div>
+        </div>
+    </section>
+
+    <!-- Sixth section -->
+    <section class="sixth-sec">
+        <div class="sixthsec-mainbox">
+            <div class="sixthsec-header">
+                <p>Need a functioning website? <br>
+                    Lets get started right away!</p>
+            </div>
+
+            <form>
+                <input type="text" placeholder="Email address">
+                <button class="send-btn" type="submit">Send</button>
+            </form>
+
+            <hr class="horizontalbreak"/>
+
+            <div class="contactme-header">
+                <p>Contact Me</p>
+            </div>
+            <div class="contact-icons">
+                <div class="contact-icons-1">
+                    <img src="img/phone.png" alt="">
+                </div>
+                <div class="contact-icons-2">
+                    <img src="img/github.png" alt="">
+                </div>
+                <div class="contact-icons-3">
+                    <img src="img/linkedin.png" alt="">
+                </div>
+                <div class="contact-icons-4">
+                    <img src="img/mail.png" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+
 </body>
 
 </html>
